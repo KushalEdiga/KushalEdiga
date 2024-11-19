@@ -121,22 +121,50 @@
                 <p class="section-name">education</p>
                 <div class="section-line"></div>
             </div>
-            <div class="content-container">Education</div>
-            <div class="container section-seperator">
-                <p class="section-name">certification</p>
-                <div class="section-line"></div>
+            <div class="content-container">
+                <div class="education">
+                    <div class="course">
+                        <p>B.Tech Computer Science And Engineering</p>
+                    </div>
+                    <div class="tenure-year">
+                        <p>2019 - 2023</p>
+                    </div>
+                    <div class="course-institute">
+                        <p>Lovely Professional University</p>
+                    </div>
+                    <div class="course-result">
+                        <p>7.19 GPA</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="course">
+                        <p>Secondary High School</p>
+                    </div>
+                    <div class="tenure-year">
+                        <p>2017 -2019</p>
+                    </div>
+                    <div class="course-institute">
+                        <p>Narayana Junior College </p>
+                    </div>
+                    <div class="course-result">
+                        <p>9.57 GPA</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="course">
+                        <p>High School</p>
+                    </div>
+                    <div class="tenure-year">
+                        <p>2005 - 2017</p>
+                    </div>
+                    <div class="course-institute">
+                        <p>Gitanjali Grammar School</p>
+                    </div>
+                    <div class="course-result">
+                        <p>9.3  GPA</p>
+                    </div>
+                </div>
             </div>
-            <div class="content-container">Certifications</div>
-            <div class="container section-seperator">
-                <p class="section-name">Achievements</p>
-                <div class="section-line"></div>
-            </div>
-            <div class="content-container">Achievements and accomplishments</div>
-            
-            
-            
-            
-            
         </section>
         <!-- <footer class="footer">
             footer
@@ -198,7 +226,7 @@
             grid-column: 1/8;
             padding: 8px 8px;
         }
-        .para-email{
+        /* .para-email{
 
         }
         .para-seperator{
@@ -206,7 +234,7 @@
         }
         .para-phone{
 
-        }
+        } */
         .socials-container{
             height: 100%;
             grid-row: 1/3;
@@ -277,6 +305,8 @@
         .summary-container article{
             padding: 0px 8px;
             font-size: 16px;
+            letter-spacing: .2px;
+            line-height: 20px;
         }
         .skills-container
         {
@@ -337,9 +367,7 @@
             grid-row: auto;
             grid-column: 1/-1;
             padding: 6px;
-        }
-        .work-description{
-            margin: 0;
+            line-height: 20px;
         }
         .project{
             padding: 8px
@@ -352,9 +380,9 @@
             margin-left: 8px;
             margin-bottom: 4px;
         }
-        .technology-wrapper label{
+        /* .technology-wrapper label{
             
-        }
+        } */
         .technologies{
             margin: 0px;
             display: inline;
@@ -377,6 +405,48 @@
             margin: 0px;
             display: inline;
             grid-column: 2;
+            line-height: 20px;
+        }
+        .education{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4,12px);
+            padding: 4px;
+            margin: 4px 0px 8px;
+            padding-left: 16px;
+        }
+        .course
+        {
+            grid-row: 1/3;
+            grid-column: 1;
+            font-weight: 600;
+        }
+        .course p{
+            margin:0px;
+        }
+        .tenure-year
+        {
+            grid-row: 1/3;
+            grid-column: 2;
+        }
+        .tenure-year p{
+            margin: 0px;
+        }
+        .course-institute
+        {
+            grid-row: 3/-1;
+            grid-column: 1;
+        }
+        .course-institute p{
+            margin: 0px;
+        }
+        .course-result
+        {
+            grid-row: 3/-1;
+            grid-column: 2;
+        }
+        .course-result p{
+            margin: 0px;
         }
     </style>
 </html>
